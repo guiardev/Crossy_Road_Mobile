@@ -10,5 +10,5 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
         <li><h4><a href="#C5">Animation Player</a></h4></li>
         <li><h4><a href="#C6">Itens and Collectibles</a></h4></li>
         <li><h4><a href="#C7">Cars and Truck, Train</a></h4></li>
-        <li><h4><a href="#C8">Soms/a></h4></li>
+        <li><h4><a href="#C8">Fx></h4></li>
     </ol>
