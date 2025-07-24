@@ -10,37 +10,43 @@ namespace AprendaUnity{
         private gameController _gameController;
         private Animator animator;
         private Vector3 preDestiny, destiny;
+        private RaycastHit _hit;
         private bool isJumping;
+        //public bool isJumping;
 
         [Header("Settings Player")]
         public LayerMask whatIsObstacles;
         public LayerMask whatIsGround;
-        public float speedJump;
+        public float speedJump, cooldownTime = 1, lastMoveTime;
         public int sizeBlock;
+        public bool canMove = true;
 
         #region functions unity
 
         // Start is called before the first frame update
         void Start(){
-            _gameController = FindObjectOfType(typeof(gameController)) as gameController;
+            _gameController = Object.FindFirstObjectByType(typeof(gameController)) as gameController;
             animator = GetComponent<Animator>();
         }
 
         // Update is called once per frame
-        void Update(){
+        void FixedUpdate(){
 
             if(_gameController.currentState != GameState.GAMEPLAY){
                 return;
             }
 
-            InputController();
+            // if(Time.fixedTime - lastMoveTime >= cooldownTime){
+            // } 
+
+            //InputController();
             MoverPlayer();
         }
 
-        private void OnCollisionEnter(Collision col){
-
-            if(_gameController.currentState != GameState.GAMEPLAY){ return; }
-
+        void OnTriggerEnter(Collider col){
+            
+            if (_gameController.currentState != GameState.GAMEPLAY) { return; }
+            
             switch (col.gameObject.tag){
 
                 case "Collectible":
@@ -48,65 +54,67 @@ namespace AprendaUnity{
                 break;
 
                 case "Danger":
-                    //Debug.Log("OnTriggerEnter");
+                    //Debug.Log("OnTriggerEnter Danger Die() --> col.gameObject.tag = " + col.gameObject.tag);
                     Die();
                 break;
             }
+
         }
-
-        // private void OnTriggerEnter(Collision col){
-        //     switch (col.gameObject.tag){
-
-        //         case "Collectible":
-        //             col.gameObject.SendMessage("Collect", SendMessageOptions.DontRequireReceiver);
-        //         break;
-
-        //         case "Danger":
-        //             Debug.Log("OnTriggerEnter");
-        //             Die();
-        //         break;
-        //     }
-        // }
 
         #endregion
 
         #region my functions
 
-        void InputController(){ // fazer o player olhar para o lado que ele se mover
-
-            if(isJumping == true){
-                return;
-            }
-
-            if(Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.W)){
+        /*
+        void InputController(){
+                
+            if (Input.GetKeyDown(KeyCode.W) && canMove){
+                StartCoroutine(MovementCooldown());
                 preDestiny = transform.position + new Vector3(0, 0, sizeBlock);
-                transform.rotation = Quaternion.Euler(0, 0, 0);
+                transform.rotation = Quaternion.Euler(0, 0, 0); // fazer o player olhar para o lado que ele se mover
                 PreJump();
-            }else if(Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.S)){
+            }else if (Input.GetKeyDown(KeyCode.S) && canMove){
+                StartCoroutine(MovementCooldown());
                 preDestiny = transform.position - new Vector3(0, 0, sizeBlock);
                 transform.rotation = Quaternion.Euler(0, 180, 0);
                 PreJump();
-            }else if(Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A)){
+            }else if (Input.GetKeyDown(KeyCode.A) && canMove){
+                StartCoroutine(MovementCooldown());
                 preDestiny = transform.position - new Vector3(sizeBlock, 0, 0);
                 transform.rotation = Quaternion.Euler(0, -90, 0);
                 PreJump();
-            }else if(Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D)){
+            }else if (Input.GetKeyDown(KeyCode.D) && canMove){
+                StartCoroutine(MovementCooldown());
                 preDestiny = transform.position + new Vector3(sizeBlock, 0, 0);
                 transform.rotation = Quaternion.Euler(0, 90, 0);
                 PreJump();
             }
         }
+        */
+
 
         public void PreJump(){
 
-            RaycastHit hit;
-            Physics.Raycast(transform.position + new Vector3(0, 5, 0), transform.forward, out hit, sizeBlock, whatIsObstacles);
+            //RaycastHit hit;
 
-            if(hit.collider == null){
-                //destiny = preDestiny;
+            Physics.Raycast(transform.position + new Vector3(0, 5, 0), transform.forward, out _hit, sizeBlock, whatIsObstacles);
+
+            if(_hit.collider == null){
+                 //destiny = preDestiny;
                 isJumping = true;
                 animator.SetTrigger("jump");
             }
+
+            if (isJumping == true){
+                isJumping = false;
+            }
+                
+        }
+
+        IEnumerator MovementCooldown(){
+            canMove = false;
+            yield return new WaitForSeconds(cooldownTime);
+            canMove = true;
         }
 
         void Jump(){
@@ -118,24 +126,24 @@ namespace AprendaUnity{
         void OnJumpComplete(){
             isJumping = false;
 
-            RaycastHit hit;
-            Physics.Raycast(transform.position + new Vector3(0, 5, 0), Vector3.down, out hit, sizeBlock, whatIsGround);
+            //RaycastHit hit;
+            Physics.Raycast(transform.position + new Vector3(0, 5, 0), Vector3.down, out _hit, sizeBlock, whatIsGround);
 
-            if(hit.collider != null){
-                Debug.Log(hit.collider.gameObject.name);
+            if(_hit.collider != null){
+                Debug.Log(_hit.collider.gameObject.name);
 
-                switch(hit.collider.gameObject.tag){
+                switch(_hit.collider.gameObject.tag){
                     
                     case "End":
                         Debug.Log("fim do level");
                         _gameController.ChangeGameState(GameState.COMPLETELEVEL);
                     break;
 
-                    case "Trunk": 
+                    case "Trunk":
 
                     break;
 
-                    case "Water": 
+                    case "Water":
 
                     break;
                 }
@@ -147,6 +155,7 @@ namespace AprendaUnity{
         }
 
         void Die(){
+            Debug.Log(" Die() _gameController");
             _gameController.ChangeGameState(GameState.GAMEOVER);
             _gameController.PlayFX(_gameController.fxHit);
             animator.SetTrigger("die");
@@ -161,29 +170,50 @@ namespace AprendaUnity{
             switch (tecla){
 
                 case "W":
-                    preDestiny = transform.position + new Vector3(0, 0, sizeBlock);
-                    transform.rotation = Quaternion.Euler(0, 0, 0);
-                    PreJump();
+
+                    if(canMove){
+                        StartCoroutine(MovementCooldown());
+                        preDestiny = transform.position + new Vector3(0, 0, sizeBlock);
+                        transform.rotation = Quaternion.Euler(0, 0, 0);
+                        PreJump();
+                    }
+
                 break;
 
                 case "A":
-                    preDestiny = transform.position - new Vector3(sizeBlock, 0, 0);
-                    transform.rotation = Quaternion.Euler(0, -90, 0);
-                    PreJump();
+
+                    if(canMove){
+                        StartCoroutine(MovementCooldown());
+                        preDestiny = transform.position - new Vector3(sizeBlock, 0, 0);
+                        transform.rotation = Quaternion.Euler(0, -90, 0);
+                        PreJump();
+                    }
+
                 break;
 
                 case "D":
-                    preDestiny = transform.position + new Vector3(sizeBlock, 0, 0);
-                    transform.rotation = Quaternion.Euler(0, 90, 0);
-                    PreJump();
+
+                    if(canMove){
+                        StartCoroutine(MovementCooldown());
+                        preDestiny = transform.position + new Vector3(sizeBlock, 0, 0);
+                        transform.rotation = Quaternion.Euler(0, 90, 0);
+                        PreJump();
+                    }
+
                 break;
 
                 case "S":
-                    preDestiny = transform.position - new Vector3(0, 0, sizeBlock);
-                    transform.rotation = Quaternion.Euler(0, 180, 0);
-                    PreJump();
+
+                    if(canMove){
+                        StartCoroutine(MovementCooldown());
+                        preDestiny = transform.position - new Vector3(0, 0, sizeBlock);
+                        transform.rotation = Quaternion.Euler(0, 180, 0);
+                        PreJump();                       
+                    }
+
                 break;
             }
+            
         }
 
         #endregion
