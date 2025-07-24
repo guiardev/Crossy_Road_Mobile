@@ -3473,7 +3473,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 1024
   speedJump: 55
+  cooldownTime: 0.9
+  lastMoveTime: 0
   sizeBlock: 20
+  canMove: 1
 --- !u!4 &1264085298 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 5eafd8727afd58b5099c3f9d300177c1,
