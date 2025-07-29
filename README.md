@@ -28,8 +28,16 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 
 <h3>Script Menu</h3>
 
-<p>O script que vai ser responsável pelo fundição do menu.</p>
+<p>O script que vai ser responsável por fazer o menu funcional</p>
   
 <img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_menuController.png" width="510" height="766"/>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_btnAction.png" width="510" height="286"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_btn_left.png" width="510" height="396"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_btn_right.png" width="510" height="396"/></td>
+    </tr>
+</table>
     
 </html>
