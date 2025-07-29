@@ -1,7 +1,9 @@
 <html>
 
 <head>
-    
+    img {
+      float: right;
+    }
 </head>
 
 # Crossy_Road_Mobile
