@@ -3,7 +3,9 @@
 <head>
     
 <style type="text/css">
-    .textMenu{float: right;}
+    .textMenu{
+        float: left;
+    }
 </style>
     
 </head>
