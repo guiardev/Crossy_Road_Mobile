@@ -12,3 +12,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
         <li><h4><a href="#C7">Cars and Truck, Train</a></h4></li>
         <li><h4><a href="#C8">Fx and Music</h4></li>
     </ol>
+
+<h1 id="C1">Menu</h1>
+
+<td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/Assets/Recordings/Menu.gif" width="341" height="606"/></td>
