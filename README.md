@@ -1,9 +1,12 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    img {
-      float: right;
-    }
+<style>
+img {
+  float: right;
+}
+</style>
 </head>
 
 # Crossy_Road_Mobile
