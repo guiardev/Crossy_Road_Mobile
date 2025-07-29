@@ -2,7 +2,7 @@
 
 <head>
     
-<style="text/css">
+<style type="text/css">
     .textMenu{float: right;}
 </style>
     
