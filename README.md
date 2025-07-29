@@ -2,10 +2,8 @@
 
 <head>
     
-<h1 id="C1">Menu</h1>
-
-<style="text/css"> .
-    textMenu{float: right;}
+<style="text/css">
+    .textMenu{float: right;}
 </style>
     
 </head>
@@ -25,6 +23,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
         <li><h4><a href="#C8">Fx and Music</h4></li>
     </ol>
 
+<h1 id="C1">Menu</h1>
 
 <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/Assets/Recordings/Menu.gif" width="341" height="606"/></td>
 <body>
