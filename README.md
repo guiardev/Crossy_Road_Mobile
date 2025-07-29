@@ -36,9 +36,9 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 
 <table border="0">
     <tr>
-      <td><h3>btn_Action</h3> <img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_btnAction.png" width="510" height="286"/></td>
-      <td><h3>btn_left</h3<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_btn_left.png" width="510" height="396"/></td>
-      <td><h3>btn_right</h3<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_btn_right.png" width="510" height="396"/></td>
+      <td>btn_Action<<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_btnAction.png" width="510" height="286"/></td>
+      <td>btn_left<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_btn_left.png" width="510" height="396"/></td>
+      <td>btn_right<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_btn_right.png" width="510" height="396"/></td>
     </tr>
 </table>
     
