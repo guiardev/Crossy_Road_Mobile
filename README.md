@@ -34,6 +34,8 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 
 <h3>Botões do Menu</h3>
 
+<p>Aqui os botões que jogador vai interagir</p>
+
 <table border="0">
     <tr>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_btnAction.png" width="510" height="286"/></td>
