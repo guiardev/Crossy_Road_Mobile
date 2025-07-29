@@ -1,12 +1,6 @@
 <html>
 
 <head>
-
-<style type="text/css">
-    .textMenu{
-        float: left;
-    }
-</style>
     
 </head>
 
@@ -27,7 +21,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 
 <h1 id="C1">Menu</h1>
 
-<td><img style="float: right" src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/Assets/Recordings/Menu.gif" width="341" height="606"/></td>
+<td><img style="float: left" src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/Assets/Recordings/Menu.gif" width="341" height="606"/></td>
 <body>
     <p class="textMenu">O menu do jogo vai ter um setas apontada para direita e outra para esquerda e no meu da tela vai mostrar 3 personagens e quando o jogador click vai mudar de personagem para o lado que estiver o personagem, os personagens vão estar                    trancados para liberar ele com moeda do jogo vai aparecer um cadeado no meu do personagem e embaixo o preço do personagem. Vai ter um botão jogar se jogador click entra no jogo e quando o, jogador escolher um personagem                               cadeado o botão jogador mudar para liberar e o jogador tiver o dinheiro para liberar o personagem ele poderá jogar com ele.</p>
     
