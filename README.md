@@ -59,9 +59,9 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 
 <h3>O player vai ser controlado pela hud que vai ter setas que o jogador vai clicar e o player vai mover para o lado da seta</h3>
 
-<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_Arrows.png" width="180" height="160"/>
-
 <p>As configurações como o jogador vai controlar o personagem</p>
+
+<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_Arrows.png" width="180" height="160"/>
 
 <h3>Inspector dos setas up e down, right e left.</h3>
 
