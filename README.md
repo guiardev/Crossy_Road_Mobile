@@ -61,6 +61,8 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 
 <p>As configurações como o jogador vai controlar o personagem</p>
 
+<h3>Inspector dos setas</h3>
+
 <table border="0">
     <tr>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_Up.png" width="511" height="289"/></td>
