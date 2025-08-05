@@ -34,7 +34,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 
 <h3>Botões do Menu</h3>
 
-<p>Aqui os botões que jogador vai interagir</p>
+<p>Aqui estão as configurações dos botões que o jogador vai interagir.</p>
 
 <table border="0">
     <tr>
