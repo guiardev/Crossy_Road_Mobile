@@ -46,7 +46,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 
 <h1 id="C2">Player</h1>
 
-<p>As configurações do personagem que o jogador vai controlar</p>
+<p>As configurações do personagem</p>
 
 <h3>Script player e meshPlayer</h3>
 
@@ -56,5 +56,20 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_meshPlayer.png" width="511" height="446"/></td>
     </tr>
 </table>
-    
+
+<h3>O player vai ser controlado pela hud que vai ter setas que o jogador vai clicar e o player vai mover para o lado da seta</h3>
+
+<p>As configurações como o jogador vai controlar o personagem</p>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_Up.png" width="511" height="289"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_Down.png" width="511" height="289"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_Right.png" width="511" height="289"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_Left.png" width="511" height="289"/></td>
+    </tr>
+</table>
+     
 </html>
