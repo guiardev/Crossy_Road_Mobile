@@ -43,5 +43,18 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_btn_right.png" width="510" height="396"/></td>
     </tr>
 </table>
+
+<h1 id="C2">Player</h1>
+
+<p>As configurações do personagem que o jogador vai controlar</p>
+
+<h3>Script player e meshPlayer</h3>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_player.png" width="512" height="400"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_meshPlayer.png" width="511" height="446"/></td>
+    </tr>
+</table>
     
 </html>
