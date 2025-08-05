@@ -13,7 +13,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
         <li><h4><a href="#C1">Menu Game</a></h4></li>
         <li><h4><a href="#C2">Player</a></h4></li>
         <li><h4><a href="#C3">GameController</a></h4></li>
-        <li><h4><a href="#C4">Cameras</a></h4></li>
+        <li><h4><a href="#C4">Camera</a></h4></li>
         <li><h4><a href="#C5">HUD GamePlay</a></h4></li>
         <li><h4><a href="#C6">Animation Player</a></h4></li>
         <li><h4><a href="#C7">Itens and Collectibles</a></h4></li>
