@@ -61,7 +61,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 
 <p>As configurações como o jogador vai controlar o personagem</p>
 
-<h3>Inspector dos setas</h3>
+<h3>Inspector dos setas up e down, right e left</h3>
 
 <table border="0">
     <tr>
