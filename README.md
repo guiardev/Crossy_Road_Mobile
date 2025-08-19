@@ -76,5 +76,9 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_Left.png" width="511" height="289"/></td>
     </tr>
 </table>
+
+<h3>Universal Renderer asset reference for URP</h3>
+
+<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/Assets/Recordings/Movie_004.gif" width="341" height="606"/>
      
 </html>
