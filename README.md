@@ -79,11 +79,13 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 
 <h3>Universal Renderer asset reference for URP</h3>
 
-<p>Quando o personagem ficar por trás árvore ele fica destacado e muda de material.</p>
+<p>Quando o personagem fica por trás da árvore ele fica destacado e muda de material.</p>
 
 <img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/Assets/Recordings/Movie_004.gif" width="341" height="606"/>
 
 <h3>Material Behind</h3>
+
+<p>Aqui estão as configurações de cor e ruídos e sombra.</p>
 
 <img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_material_behind.png" width="505" height="238"/>
 
