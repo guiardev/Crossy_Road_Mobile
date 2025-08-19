@@ -12,13 +12,14 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
     <ol>
         <li><h4><a href="#C1">Menu Game</a></h4></li>
         <li><h4><a href="#C2">Player</a></h4></li>
-        <li><h4><a href="#C3">GameController</a></h4></li>
-        <li><h4><a href="#C4">Camera</a></h4></li>
-        <li><h4><a href="#C5">HUD GamePlay</a></h4></li>
-        <li><h4><a href="#C6">Animation Player</a></h4></li>
-        <li><h4><a href="#C7">Itens and Collectibles</a></h4></li>
-        <li><h4><a href="#C8">Cars and Truck, Train</a></h4></li>
-        <li><h4><a href="#C9">Fx and Music</h4></li>
+        <li><h4><a href="#C3">Universal Renderer asset reference for URP</a></h4></li>
+        <li><h4><a href="#C4">GameController</a></h4></li>
+        <li><h4><a href="#C5">Camera</a></h4></li>
+        <li><h4><a href="#C6">HUD GamePlay</a></h4></li>
+        <li><h4><a href="#C7">Animation Player</a></h4></li>
+        <li><h4><a href="#C8">Itens and Collectibles</a></h4></li>
+        <li><h4><a href="#C9">Cars and Truck, Train</a></h4></li>
+        <li><h4><a href="#C10">Fx and Music</h4></li>
     </ol>
 
 <h1 id="C1">Menu</h1>
@@ -77,7 +78,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
     </tr>
 </table>
 
-<h3>Universal Renderer asset reference for URP</h3>
+<h1 id="C3">Universal Renderer asset reference for URP</h1>
 
 <p>Quando o personagem fica por trás da árvore ele fica destacado e muda de material.</p>
 
