@@ -13,11 +13,12 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
         <li><h4><a href="#C1">Menu Game</a></h4></li>
         <li><h4><a href="#C2">Player</a></h4></li>
         <li><h4><a href="#C3">GameController</a></h4></li>
-        <li><h4><a href="#C4">HUD GamePlay</a></h4></li>
-        <li><h4><a href="#C5">Animation Player</a></h4></li>
-        <li><h4><a href="#C6">Itens and Collectibles</a></h4></li>
-        <li><h4><a href="#C7">Cars and Truck, Train</a></h4></li>
-        <li><h4><a href="#C8">Fx and Music</h4></li>
+        <li><h4><a href="#C4">Camera</a></h4></li>
+        <li><h4><a href="#C5">HUD GamePlay</a></h4></li>
+        <li><h4><a href="#C6">Animation Player</a></h4></li>
+        <li><h4><a href="#C7">Itens and Collectibles</a></h4></li>
+        <li><h4><a href="#C8">Cars and Truck, Train</a></h4></li>
+        <li><h4><a href="#C9">Fx and Music</h4></li>
     </ol>
 
 <h1 id="C1">Menu</h1>
@@ -57,11 +58,13 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
     </tr>
 </table>
 
-<h3>O player vai ser controlado pela hud que vai ter setas que o jogador vai clicar e o player vai mover para o lado da seta</h3>
+<p>O player vai ser controlado pela hud que vai ter setas que o jogador vai clicar e o player vai mover para o lado da seta.</p>
 
-<p>As configurações como o jogador vai controlar o personagem</p>
+<p>As configurações como o jogador vai controlar o personagem.</p>
 
-<h3>Inspector dos setas up e down, right e left</h3>
+<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_Arrows.png" width="180" height="160"/>
+
+<h3>Inspector dos setas up e down, right e left.</h3>
 
 <table border="0">
     <tr>
