@@ -111,7 +111,9 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
     </tr>
 </table>
 
-<h1 id="C5">Maps</h1>
+<h1 id="C5">Maps - Procedural</h1>
+
+<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/Assets/Recordings/record_map.gif" width="767" height="600"/>
 
 <table border="0">
     <tr>
