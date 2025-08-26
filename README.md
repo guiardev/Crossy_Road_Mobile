@@ -95,5 +95,13 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 <p>Aqui estão as configurações do URP da Unity que vai renderizar todas as câmeras do projeto.</p>
 
 <img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_URP_Asset_Renderer_Behind.png" width="504" height="737"/>
+
+<h1 id="C4">GameController</h1>
+
+<table border="0">
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_GameController_part-1.png" width="500" height="516"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_GameController_part-2.png" width="500" height="545"/></td>
+    </tr>
+</table>
      
 </html>
