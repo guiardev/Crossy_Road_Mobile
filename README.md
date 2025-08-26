@@ -14,12 +14,13 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
         <li><h4><a href="#C2">Player</a></h4></li>
         <li><h4><a href="#C3">Universal Renderer asset reference for URP</a></h4></li>
         <li><h4><a href="#C4">GameController</a></h4></li>
-        <li><h4><a href="#C5">Camera</a></h4></li>
-        <li><h4><a href="#C6">HUD GamePlay</a></h4></li>
-        <li><h4><a href="#C7">Animation Player</a></h4></li>
-        <li><h4><a href="#C8">Itens and Collectibles</a></h4></li>
-        <li><h4><a href="#C9">Cars and Truck, Train</a></h4></li>
-        <li><h4><a href="#C10">Fx and Music</h4></li>
+        <li><h4><a href="#C5">Maps</a></h4></li>
+        <li><h4><a href="#C6">Camera</a></h4></li>
+        <li><h4><a href="#C7">HUD GamePlay</a></h4></li>
+        <li><h4><a href="#C8">Animation Player</a></h4></li>
+        <li><h4><a href="#C9">Itens and Collectibles</a></h4></li>
+        <li><h4><a href="#C10">Cars and Truck, Train</a></h4></li>
+        <li><h4><a href="#C11">Fx and Music</h4></li>
     </ol>
 
 <h1 id="C1">Menu</h1>
@@ -101,11 +102,15 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 <p>O game Controller é responsável por todos função do jogo como skins dos personagens e qual e o status do jogo está no momento e configuração do fase e como câmera vai esta no jogo, 
     e limite do level e também as configurações hud principal e da hug level completo e configurações áudios do jogo.</p>
 
+<h3>_GameController</h3>
+
 <table border="0">
     <tr>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_GameController_part-1.png" width="500" height="516"/></td>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_GameController_part-2.png" width="500" height="545"/></td>
     </tr>
 </table>
+
+<h1 id="C5">Maps</h1>
      
 </html>
