@@ -99,6 +99,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 <h1 id="C4">GameController</h1>
 
 <table border="0">
+    <tr>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_GameController_part-1.png" width="500" height="516"/></td>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_GameController_part-2.png" width="500" height="545"/></td>
     </tr>
