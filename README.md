@@ -98,6 +98,9 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 
 <h1 id="C4">GameController</h1>
 
+<p>O game Controller é responsável por todos função do jogo como skins dos personagens e qual e o status do jogo está no momento e configuração do fase e como câmera vai esta no jogo, 
+    e limite do level e também as configurações hud principal e hug level completo e configurações áudios do jogo.</p>
+
 <table border="0">
     <tr>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_GameController_part-1.png" width="500" height="516"/></td>
