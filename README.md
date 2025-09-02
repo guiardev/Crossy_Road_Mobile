@@ -148,6 +148,8 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 <p>Os icons vai estar perto dos textos que vai ser atualizado com tempo que vai mostrar para o jogador que tempo está passando. O moedas também vão estar sendo atualizadas
 quando o player pegar uma moeda.</p>
 
+<p>A parte baixou no meio tela vai estar os botões que vão controlar o personagem e um pouco mais baixo tem texto mostra qual é level o jogador está?</p>
+
 <table border="0">
     <tr>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_hud-gameplay.png" width="390" height="608"/></td>
