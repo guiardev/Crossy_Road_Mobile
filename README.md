@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-
-</head>
-
 # Crossy_Road_Mobile
 Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://aprendaunity.com.br, nesse curso eu aprendi a usar técnica geração procedural na fase no game.
 
@@ -14,7 +10,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
         <li><h4><a href="#C2">Player</a></h4></li>
         <li><h4><a href="#C3">Universal Renderer asset reference for URP</a></h4></li>
         <li><h4><a href="#C4">GameController</a></h4></li>
-        <li><h4><a href="#C5">Maps</a></h4></li>
+        <li><h4><a href="#C5">Map Procedural</a></h4></li>
         <li><h4><a href="#C6">Camera</a></h4></li>
         <li><h4><a href="#C7">HUD GamePlay</a></h4></li>
         <li><h4><a href="#C8">Animation Player</a></h4></li>
@@ -111,7 +107,18 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
     </tr>
 </table>
 
-<h1 id="C5">Maps</h1>
+<h1 id="C5">Maps - Procedural</h1>
+
+<p>O jogo vai criar um mapa do level procedural assim cada vez que um jogador começa jogar a fase vai ser diferente.</p>
+
+<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/Assets/Recordings/record_map.gif" width="767" height="600"/>
+
+<h3>Map Procedural</h3>
+
+<p>O script mapProcedural que vai criar map do jogo procedural com as configurações como blocos e blocos final da fase e decoração do map que são arvore, 
+    e coletável que o jogador vai poder pegar esse items coletável no level e o bloco do level e bloco que vai estar com decoração e material final do level. 
+    Os occupies block vão ser bloqueados para o jogador não entrar neles. E configurações quantidades de bloco e percentual das informações da fase 
+    e configurações dos carros que vão aparecer na fase.</p>
 
 <table border="0">
     <tr>
