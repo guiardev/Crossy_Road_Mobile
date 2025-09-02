@@ -143,7 +143,10 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
 
 <h1 id="C7">Hud GamePlay</h1>
 
-<p>O hud gameplay </p>
+<p>O hud gameplay tem ícones e textos e botões que vão fazer coisa no jogo e vão mostrar para o jogador que está acontecendo no jogo.</p>
+
+<p>Os icons vai estar perto dos textos que vai ser atualizado com tempo que vai mostrar para o jogador que tempo está passando. O moedas também vão estar sendo atualizadas
+quando o player pegar uma moeda.</p>
 
 <table border="0">
     <tr>
