@@ -127,4 +127,18 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
     </tr>
 </table>
 
+<h1 id="C6">Main Camera</h1>
+
+<p>A câmara principal vai seguir o jogador no cenário, e o script responsável pela configuração da câmara e o gameController. Com as variáveis speedCam
+    que vão definir a velocidade que a câmara vai mover para seguir o player e margem vai dizer até onde a câmera vai seguir no jogador.</p>
+
+<h3>Main camera e settings camera</h3>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_Main-camera.png" width="500" height="621"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_setting-camera-gameController.png" width="500" height="64"/></td>
+    </tr>
+</table>
+
 </html>
