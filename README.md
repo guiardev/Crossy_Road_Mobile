@@ -127,4 +127,13 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
     </tr>
 </table>
 
+<h1 id="C6">Main Camera</h1>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_Main-camera.png" width="500" height="621"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_setting-camera-gameController.png" width="500" height="64"/></td>
+    </tr>
+</table>
+
 </html>
