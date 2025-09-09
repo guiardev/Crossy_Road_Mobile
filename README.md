@@ -173,5 +173,9 @@ quando o player pegar uma moeda.</p>
     </tr>
 </table>
 
+<h1 id="C8">Animation Player</h1>
+
+<p>As animações do player vão ser Idle quando o jogador estiver parado o personagem vai está movendo um pouco, e animação jump o player vai se mover no cenário pulando e 
+    animação jump que vai fazer isso. A animação préJump que o player vai fazer antes de ir na animação jump. E animação die vai ser acionada quando o jogador morre.</p>
 
 </html>
