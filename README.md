@@ -182,15 +182,6 @@ quando o player pegar uma moeda.</p>
 
 <img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animator.png" width="1155" height="290"/>
 
-<h3>Transição préJump e Transição Jump</h3>
-
-<table border="0">
-    <tr>
-      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_transition_preJump-jump.png" width="500" height="573"/></td>
-      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_transition_Jump-Idle.png" width="500" height="573"/></td>
-    </tr>
-</table>
-
 <h3>Transição Idle e Transição préJump e Transição Jump | Transição Die</h3>
 
 <table border="0">
