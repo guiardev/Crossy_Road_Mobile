@@ -197,9 +197,11 @@ quando o player pegar uma moeda.</p>
     </tr>
 </table>
 
-<h3>Animation</h3>
+<h3>Animations</h3>
 
 <h3>Animation Idle</h3>
+
+<p>Animação Idle vai esta em loop quando personagem estiver parado, e a escala no y do player vai subir 1.1 no tempo até 0:30 e volta 1.0 na escala y até 1:00.</p>
 
 <table border="0">
     <tr>
