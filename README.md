@@ -212,4 +212,17 @@ quando o player pegar uma moeda.</p>
     </tr>
 </table>
 
+<h3>Animation preJump</h3>
+
+<p>Animação preJump vai fazer andes animação jump a escala no y vai descer de 1.0 para 0.8 até o fim da animação prejump</p>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_preJump.png" width="1155" height="290"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_preJump-part2.png" width="1155" height="290"/></td>
+    </tr>
+</table>
+
 </html>
