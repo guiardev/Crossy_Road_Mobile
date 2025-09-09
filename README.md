@@ -141,4 +141,37 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
     </tr>
 </table>
 
+<h1 id="C7">Hud GamePlay</h1>
+
+<p>O hud gameplay tem ícones e textos e botões que vão fazer coisa no jogo e vão mostrar para o jogador que está acontecendo no jogo.</p>
+
+<p>Os icons vai estar perto dos textos que vai ser atualizado com tempo que vai mostrar para o jogador que tempo está passando. O moedas também vão estar sendo atualizadas
+quando o player pegar uma moeda.</p>
+
+<p>A parte baixou no meio tela vai estar os botões que vão controlar o personagem e um pouco mais baixo tem texto mostra qual é level o jogador está.</p>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_hud-gameplay.png" width="390" height="608"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_hud.png" width="500" height="490"/></td>
+    </tr>
+</table>
+
+<h3>IconTime e txtTime | IconCoin e txtCoin | txtLevel</h3>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_IconTime.png" width="500" height="570"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_txtTime.png" width="500" height="570"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_IconCoin.png" width="500" height="570"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_txtCoin.png" width="500" height="570"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_txtLevel.png" width="500" height="570"/></td>
+    </tr>
+</table>
+
+
 </html>
