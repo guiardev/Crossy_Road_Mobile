@@ -180,7 +180,9 @@ quando o player pegar uma moeda.</p>
 
 <h3>Animator</h3>
 
-<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animator.png" width="1155" height="290"/>
+<p>O Animator vai ter 2 parâmetros trigger die e jump que serão ativados via script.</p>
+
+<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animator-parameters.png" width="1155" height="290"/>
 
 <h3>Transição Idle e Transição préJump e Transição Jump | Transição Die</h3>
 
