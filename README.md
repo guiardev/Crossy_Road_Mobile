@@ -239,4 +239,11 @@ quando o player pegar uma moeda.</p>
     </tr>
 </table>
 
+<h3>Animation Die</h3>
+
+<p>Animação die vai ser ativada quando jogador morre no jogo as escala x, e y e z vão ser modificadas até o final animação todas escala vai 
+    começa 1.0 x vai 1.4, y vai 0.1, e z vai subir até 1.4 no tempo 10.</p>
+
+<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_die.png" width="1155" height="290"/>
+
 </html>
