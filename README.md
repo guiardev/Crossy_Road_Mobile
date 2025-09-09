@@ -157,4 +157,21 @@ quando o player pegar uma moeda.</p>
     </tr>
 </table>
 
+<h3>IconTime e txtTime | IconCoin e txtCoin | txtLevel</h3>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_IconTime.png" width="500" height="570"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_txtTime.png" width="500" height="570"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_IconCoin.png" width="500" height="570"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_txtCoin.png" width="500" height="570"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_txtLevel.png" width="500" height="570"/></td>
+    </tr>
+</table>
+
+
 </html>
