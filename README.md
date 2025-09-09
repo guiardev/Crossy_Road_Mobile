@@ -197,5 +197,17 @@ quando o player pegar uma moeda.</p>
     </tr>
 </table>
 
+<h3>Animation</h3>
+
+<h3>Animation Idle</h3>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_Idle.png" width="1155" height="290"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_Idle-part2.png" width="1155" height="290"/></td>
+    </tr>
+</table>
 
 </html>
