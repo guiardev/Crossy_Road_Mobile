@@ -173,5 +173,27 @@ quando o player pegar uma moeda.</p>
     </tr>
 </table>
 
+<h1 id="C8">Animation Player</h1>
+
+<p>As animações do player vão ser Idle quando o jogador estiver parado o personagem vai está movendo um pouco, e animação jump o player vai se mover no cenário pulando e 
+    animação jump que vai fazer isso. A animação préJump que o player vai fazer antes de ir na animação jump. E animação die vai ser acionada quando o jogador morre.</p>
+
+<h3>Animator</h3>
+
+<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animator.png" width="1155" height="290"/>
+
+<h3>Transição Idle e Transição préJump e Transição Jump | Transição Die</h3>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_transition_Idle-preJump.png" width="500" height="573"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_transition_preJump-jump.png" width="500" height="573"/></td>  
+    </tr>
+     <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_transition_Jump-Idle.png" width="500" height="573"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_transition_AnyState-die.png" width="500" height="573"/></td>
+    </tr>
+</table>
+
 
 </html>
