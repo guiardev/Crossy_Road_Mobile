@@ -180,7 +180,9 @@ quando o player pegar uma moeda.</p>
 
 <h3>Animator</h3>
 
-<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animator.png" width="1155" height="290"/>
+<p>O Animator vai ter 2 parâmetros trigger die e jump que serão ativados via script.</p>
+
+<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animator-parameters.png" width="1155" height="290"/>
 
 <h3>Transição Idle e Transição préJump e Transição Jump | Transição Die</h3>
 
@@ -195,5 +197,53 @@ quando o player pegar uma moeda.</p>
     </tr>
 </table>
 
+<h3>Animations</h3>
+
+<h3>Animation Idle</h3>
+
+<p>Animação Idle vai esta em loop quando personagem estiver parado, e a escala no y do player vai subir 1.1 no tempo até 0:30 e volta 1.0 na escala y até 1:00.</p>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_Idle.png" width="1155" height="290"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_Idle-part2.png" width="1155" height="290"/></td>
+    </tr>
+</table>
+
+<h3>Animation preJump</h3>
+
+<p>Animação preJump vai fazer andes animação jump a escala no y vai descer de 1.0 para 0.8 até o fim da animação prejump</p>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_preJump.png" width="1155" height="290"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_preJump-part2.png" width="1155" height="290"/></td>
+    </tr>
+</table>
+
+<h3>Animation Jump</h3>
+
+<p>Animação jump o personagem vai comeca com escala no y 0.8 e subir 1.0 no tempo 10 e subir mais 1.2 no tempo 20 e descer a escala no y 1.1 no tempo 27,
+ e descer a escala 0.8 no tempo 31 e no tempo 33 vai ter um evento chamado OnJumpComplete e volta na escala normal do player no tempo 35.</p>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_jump.png" width="1155" height="290"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_jump-part2.png" width="1155" height="290"/></td>
+    </tr>
+</table>
+
+<h3>Animation Die</h3>
+
+<p>Animação die vai ser ativada quando jogador morre no jogo as escala x, e y e z vão ser modificadas até o final animação todas escala vai 
+    começa 1.0 x vai 1.4, y vai 0.1, e z vai subir até 1.4 no tempo 10.</p>
+
+<img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_die.png" width="1155" height="290"/>
 
 </html>
