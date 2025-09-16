@@ -255,6 +255,8 @@ quando o player pegar uma moeda.</p>
 
 <h1 id="C9">Itens and Collectibles</h1>
 
+<p>Os itens que o jogador poderá pegar na fase são moedas e tomate.</p>
+
 <table border="0">
     <tr>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_collectibles_coin.png" width="500" height="488"/></td>
