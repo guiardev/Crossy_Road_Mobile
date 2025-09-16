@@ -255,7 +255,9 @@ quando o player pegar uma moeda.</p>
 
 <h1 id="C9">Itens and Collectibles</h1>
 
-<p>Os itens que o jogador poderá pegar na fase são moedas e tomate.</p>
+<p>Os itens que o jogador poderá pegar na fase são moedas e tomate, o tomate serve para adicionar tempo e a moedas para juntar e cumular para poder comprar personagem.</p>
+
+<h3>Coin and tomate</h3>
 
 <table border="0">
     <tr>
