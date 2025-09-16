@@ -253,4 +253,13 @@ quando o player pegar uma moeda.</p>
     </tr>
 </table>
 
+<h1 id="C9">Itens and Collectibles</h1>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_collectibles_coin.png" width="500" height="488"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_collectibles_tomate.png" width="500" height="488"/></td>  
+    </tr>
+</table>
+
 </html>
