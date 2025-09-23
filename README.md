@@ -269,7 +269,7 @@ quando o player pegar uma moeda.</p>
 <h1 id="C10">Cars and Truck, Train and Scriptable</h1>
 
 <p>O jogo vai ter carros e caminhão e train que vai esta no celarios e vão ser criados randomicamente, os carros são o carro vermelho e outro amarelo 
-    e o caminhão com carreta e outro sem careta e o train com duas vagões.</p>
+    e o caminhão com carreta e outro sem careta e o train com duas vagões. O script vehicle que vai decidir velocidade que veículo vai correr no seu trajeto.</p>
 
 <table border="0">
     <tr>
