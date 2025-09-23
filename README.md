@@ -15,7 +15,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
         <li><h4><a href="#C7">HUD GamePlay</a></h4></li>
         <li><h4><a href="#C8">Animation Player</a></h4></li>
         <li><h4><a href="#C9">Itens and Collectibles</a></h4></li>
-        <li><h4><a href="#C10">Cars and Truck, Train</a></h4></li>
+        <li><h4><a href="#C10">Cars and Truck, Train and Scriptable</a></h4></li>
         <li><h4><a href="#C11">Fx and Music</h4></li>
     </ol>
 
@@ -252,5 +252,20 @@ quando o player pegar uma moeda.</p>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_die-part2.png" width="1155" height="290"/></td>
     </tr>
 </table>
+
+<h1 id="C9">Itens and Collectibles</h1>
+
+<p>Os itens que o jogador poderá pegar na fase são moedas e tomate, o tomate serve para adicionar tempo e a moedas para juntar e cumular para poder comprar personagem.</p>
+
+<h3>Coin and tomate</h3>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_collectibles_coin.png" width="500" height="488"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_collectibles_tomate.png" width="500" height="488"/></td>  
+    </tr>
+</table>
+
+<h1 id="C10">Cars and Truck, Train and Scriptable</h1>
 
 </html>
