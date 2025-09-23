@@ -268,4 +268,30 @@ quando o player pegar uma moeda.</p>
 
 <h1 id="C10">Cars and Truck, Train and Scriptable</h1>
 
+<p>O jogo vai ter carros e caminhão e train que vai esta no celarios e vão ser criados randomicamente, os carros são o carro vermelho e outro amarelo 
+    e o caminhão com carreta e outro sem careta e o train com duas vagões. O script vehicle que vai decidir velocidade que veículo vai correr no seu trajeto.</p>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_carred.png" width="520" height="345"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_carred_vehicle.png" width="502" height="249"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_caryellow.png" width="520" height="345"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_caryellow_vehicle.png" width="502" height="249"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_truck.png" width="520" height="345"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_truck_vehicle.png" width="502" height="249"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_truck2.png" width="520" height="345"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_truck2_vehicle.png" width="502" height="249"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_train.png" width="520" height="345"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_train_vehicle.png" width="502" height="578"/></td>
+    </tr>
+</table>
+
 </html>
