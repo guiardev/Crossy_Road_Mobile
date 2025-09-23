@@ -15,7 +15,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
         <li><h4><a href="#C7">HUD GamePlay</a></h4></li>
         <li><h4><a href="#C8">Animation Player</a></h4></li>
         <li><h4><a href="#C9">Itens and Collectibles</a></h4></li>
-        <li><h4><a href="#C10">Cars and Truck, Train</a></h4></li>
+        <li><h4><a href="#C10">Cars and Truck, Train and Scriptable</a></h4></li>
         <li><h4><a href="#C11">Fx and Music</h4></li>
     </ol>
 
@@ -266,6 +266,6 @@ quando o player pegar uma moeda.</p>
     </tr>
 </table>
 
-<h1 id="C10">Cars and Truck, Train</h1>
+<h1 id="C10">Cars and Truck, Train and Scriptable</h1>
 
 </html>
