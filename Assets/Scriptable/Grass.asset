@@ -10,14 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7e049be995f52df5695851d7a57085e0, type: 3}
-  m_Name: estradaDupla
+  m_Name: Grass
   m_EditorClassIdentifier: 
-  prefabs:
-  - {fileID: 8385429247478739539, guid: 6ec4b1c5cb10a5b13bec891fd98db756, type: 3}
-  - {fileID: 5294790340806797127, guid: 9452b8794b8265707a9a90865cd8a96f, type: 3}
-  minSpeed: 30
-  maxSpeed: 60
-  IsSpawn: 1
-  isReverse: 0
-  isTrem: 0
-  isDupla: 1
+  prefabs: []
+  minSpeed: 0
+  maxSpeed: 0
+  IsSpawn: 0

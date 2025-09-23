@@ -4929,7 +4929,7 @@ MonoBehaviour:
   qtdCars: 0
   carPrefab: {fileID: 8385429247478739539, guid: 6ec4b1c5cb10a5b13bec891fd98db756,
     type: 3}
-  _spanws:
+  _spawnCars:
   - {fileID: 11400000, guid: a897420bfea1610d5a4fb34c9754f4c4, type: 2}
   - {fileID: 11400000, guid: 110df6fa5b162c7f9b0ddba2f7e90502, type: 2}
   - {fileID: 11400000, guid: 7a61dd3b393175d77b0018f2083ab14d, type: 2}
