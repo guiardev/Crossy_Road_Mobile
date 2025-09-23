@@ -270,7 +270,7 @@ quando o player pegar uma moeda.</p>
 
 <table border="0">
     <tr>
-      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_carred.png" width="520" height="345"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_carred.png" width="420" height="245"/></td>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_carred_vehicle.png" width="502" height="249"/></td>
     </tr>
     <tr>
