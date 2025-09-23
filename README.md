@@ -268,6 +268,9 @@ quando o player pegar uma moeda.</p>
 
 <h1 id="C10">Cars and Truck, Train and Scriptable</h1>
 
+<p>O jogo vai ter carros e caminhão e train que vai esta no celarios e vão ser criados randomicamente, os carros são o carro vermelho e outro amarelo 
+    e o caminhão com carreta e outro sem careta e o train com duas vagões.</p>
+
 <table border="0">
     <tr>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_carred.png" width="520" height="345"/></td>
