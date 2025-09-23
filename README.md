@@ -268,4 +268,14 @@ quando o player pegar uma moeda.</p>
 
 <h1 id="C10">Cars and Truck, Train and Scriptable</h1>
 
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_carred.png" width="720" height="545"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_carred_vehicle.png" width="502" height="249"/></td>
+    </tr>
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_animation_die-part2.png" width="1155" height="290"/></td>
+    </tr>
+</table>
+
 </html>
