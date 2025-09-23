@@ -24,7 +24,7 @@ namespace AprendaUnity{
         [SerializeField] private float qtdCars;
         public GameObject carPrefab;
 
-        public spanws[] _spanws;
+        public spanws[] _spawnCars;
         public int posLeft;
         public int posRight;
         public float distanceCars;
@@ -49,11 +49,6 @@ namespace AprendaUnity{
             // }
             
             generateMap();
-        }
-
-        // Update is called once per frame
-        void Update(){
-            
         }
 
         #region My Functions
@@ -242,7 +237,7 @@ namespace AprendaUnity{
                 // Debug.Log("canDecorate[idBlock]: " + canDecorate[idBlock]);
                 // Debug.Log("idBlock: " + idBlock);
                 
-                if(idBlock != 999 && _spanws[idBlock].IsSpawn == true){
+                if(idBlock != 999 && _spawnCars[idBlock].IsSpawn == true){
                     setCars(blockTemp, idBlock);
                 }
             }
@@ -251,7 +246,7 @@ namespace AprendaUnity{
 
                 bool isLeft = false;
 
-                if(_spanws[idBlock].isReverse == true){
+                if(_spawnCars[idBlock].isReverse == true){
 
                     if(Random.Range(0, 100) < 50){
                         isLeft = false;
@@ -260,7 +255,7 @@ namespace AprendaUnity{
                     }
                 }
 
-                if(_spanws[idBlock].isTrem == true){
+                if(_spawnCars[idBlock].isTrem == true){
                     qtdCars = 1;
                 }else{
                     qtdCars = Mathf.RoundToInt(((qtdBloco + qtdBlocoLimit) * 2 + 1) * sizeBlock / distanceCars);
@@ -268,7 +263,7 @@ namespace AprendaUnity{
 
                 Vector3 posIni = Vector3.zero;
                 
-                int speedLine = Random.Range(_spanws[idBlock].minSpeed, _spanws[idBlock].maxSpeed);
+                int speedLine = Random.Range(_spawnCars[idBlock].minSpeed, _spawnCars[idBlock].maxSpeed);
 
                 switch (isLeft){
 
@@ -276,15 +271,15 @@ namespace AprendaUnity{
 
                         posIni = new Vector3(posLeft + distanceCars, blockRef.transform.position.y + 20, blockRef.transform.position.z);
 
-                        if(_spanws[idBlock].isTrem == true){
+                        if(_spawnCars[idBlock].isTrem == true){
                             posIni += new Vector3(0, 0, sizeBlock);
                         }
 
                         for (int i = 0; i < qtdCars; i++){
 
-                            int idCar = Random.Range(0, _spanws[idBlock].prefabs.Length);
+                            int idCar = Random.Range(0, _spawnCars[idBlock].prefabs.Length);
 
-                            carPrefab = _spanws[idBlock].prefabs[idCar];
+                            carPrefab = _spawnCars[idBlock].prefabs[idCar];
 
                             GameObject tempCar = Instantiate(carPrefab, posIni, transform.localRotation);
                             tempCar.GetComponent<vehicle>().speed = speedLine;
@@ -299,15 +294,15 @@ namespace AprendaUnity{
 
                         posIni = new Vector3(posRight - distanceCars, blockRef.transform.position.y + 20, blockRef.transform.position.z);
 
-                        if(_spanws[idBlock].isTrem == true){
+                        if(_spawnCars[idBlock].isTrem == true){
                             posIni += new Vector3(0, 0, sizeBlock);
                         }
 
                         for (int i = 0; i < qtdCars; i++){
 
-                            int idCar = Random.Range(0, _spanws[idBlock].prefabs.Length);
+                            int idCar = Random.Range(0, _spawnCars[idBlock].prefabs.Length);
 
-                            carPrefab = _spanws[idBlock].prefabs[idCar];
+                            carPrefab = _spawnCars[idBlock].prefabs[idCar];
 
                             GameObject tempCar = Instantiate(carPrefab, posIni, transform.localRotation);
                             tempCar.GetComponent<vehicle>().speed = speedLine;
@@ -316,16 +311,16 @@ namespace AprendaUnity{
                             posIni -= new Vector3(distanceCars, 0, 0);
                         }
 
-                        if(_spanws[idBlock].isDupla == true){
+                        if(_spawnCars[idBlock].isDupla == true){
 
                             posIni = new Vector3(posLeft + distanceCars, blockRef.transform.position.y + 20, blockRef.transform.position.z + sizeBlock);
 
-                            speedLine = Random.Range(_spanws[idBlock].minSpeed, _spanws[idBlock].maxSpeed);
+                            speedLine = Random.Range(_spawnCars[idBlock].minSpeed, _spawnCars[idBlock].maxSpeed);
 
                             for (int i = 0; i < qtdCars; i++){
 
-                                int idCar = Random.Range(0, _spanws[idBlock].prefabs.Length);
-                                carPrefab = _spanws[idBlock].prefabs[idCar];
+                                int idCar = Random.Range(0, _spawnCars[idBlock].prefabs.Length);
+                                carPrefab = _spawnCars[idBlock].prefabs[idCar];
 
                                 GameObject tempCar = Instantiate(carPrefab, posIni, transform.localRotation);
                                 tempCar.GetComponent<vehicle>().speed = speedLine;
