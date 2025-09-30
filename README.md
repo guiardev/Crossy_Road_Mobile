@@ -314,11 +314,20 @@ quando o player pegar uma moeda.</p>
 
 <h1 id="C11">Fx and Music</h1>
 
+<p>O som do jogo vai está configurado no script GameController na parte Fx todos áudios dos jogo vai instalado e vai ser tocado via script com quando jogador 
+    pegar moedas ou tomada vai tocar um áudio que estive GameController na variável coin e meus para outra ação no jogo.</p>
+
 <table border="0">
     <tr>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_GameController-fx.png" width="500" height="201"/></td>
       <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_Environment.png" width="500" height="540"/></td>  
     </tr>
 </table>
+
+<h3>Train Vehicle</h3>
+
+<p>O trem vai tocar áudio todas vez que ele aparecer na cela.</p>
+
+<td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_train_vehicle.png" width="500" height="578"/></td>
 
 </html>
