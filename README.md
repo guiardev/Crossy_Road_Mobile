@@ -15,7 +15,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
         <li><h4><a href="#C7">HUD GamePlay</a></h4></li>
         <li><h4><a href="#C8">Animation Player</a></h4></li>
         <li><h4><a href="#C9">Itens and Collectibles</a></h4></li>
-        <li><h4><a href="#C10">Cars and Truck, Train and Scriptable</a></h4></li>
+        <li><h4><a href="#C10">Cars and Truck, Train and Scriptable Objects</a></h4></li>
         <li><h4><a href="#C11">Fx and Music</h4></li>
     </ol>
 
@@ -294,7 +294,9 @@ quando o player pegar uma moeda.</p>
     </tr>
 </table>
 
-<h3>Scriptable Cars</h3>
+<h3>Scriptable Objects Cars</h3>
+
+<p>O Scriptable Objects e classe que são herdar do script spawns, e poder criar arquivos scriptable configurações diferentes e no projeto 4 scriptable grass, rail e também roaddoublescars e o roadonlycars. No script mapProcedural na configuração cars que vai estar com as suas configurações e como ele vai surgir na cena e velocidade que veículo vai percorrer no cenário.</p>
 
 <table border="0">
     <tr>
