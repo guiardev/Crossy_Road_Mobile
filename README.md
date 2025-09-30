@@ -15,7 +15,7 @@ Game criando nas aulas do curso Crossy Road 3D versão mobile no site: https://a
         <li><h4><a href="#C7">HUD GamePlay</a></h4></li>
         <li><h4><a href="#C8">Animation Player</a></h4></li>
         <li><h4><a href="#C9">Itens and Collectibles</a></h4></li>
-        <li><h4><a href="#C10">Cars and Truck, Train and Scriptable</a></h4></li>
+        <li><h4><a href="#C10">Cars and Truck, Train and Scriptable Objects</a></h4></li>
         <li><h4><a href="#C11">Fx and Music</h4></li>
     </ol>
 
@@ -294,16 +294,21 @@ quando o player pegar uma moeda.</p>
     </tr>
 </table>
 
-<h3>Scriptable Cars</h3>
+<h3>Scriptable Objects Cars</h3>
+
+<p>O Scriptable Objects e classe que são herdar do script spawns e poder criar arquivos scriptable com as configurações diferentes e no projeto 4 scriptable grass, rail e também roaddoublescars e o roadonlycars. No script mapProcedural na configuração cars que vai estar com as suas configurações e como ele vai surgir na cena e velocidade que veículo vai percorrer no cenário.</p>
 
 <table border="0">
     <tr>
-      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_carred.png" width="520" height="345"/></td>
-      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_carred_vehicle.png" width="502" height="249"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_menuController_configurationcars.png" width="500" height="265"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_grass_Scriptable.png" width="500" height="265"/></td>
     </tr>
     <tr>
-      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_caryellow.png" width="520" height="345"/></td>
-      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_caryellow_vehicle.png" width="502" height="249"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_roadonlycars_Scriptable.png.png" width="505" height="295"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_roaddoublescars_Scriptable.png.png" width="500" height="338"/></td>
+    </tr>
+     <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_rail_Scriptable.png" width="506" height="273"/></td>
     </tr>
 </table>
 
