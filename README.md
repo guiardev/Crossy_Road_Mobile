@@ -296,7 +296,7 @@ quando o player pegar uma moeda.</p>
 
 <h3>Scriptable Objects Cars</h3>
 
-<p>O Scriptable Objects e classe que são herdar do script spawns e poder criar arquivos scriptable configurações diferentes e no projeto 4 scriptable grass, rail e também roaddoublescars e o roadonlycars. No script mapProcedural na configuração cars que vai estar com as suas configurações e como ele vai surgir na cena e velocidade que veículo vai percorrer no cenário.</p>
+<p>O Scriptable Objects e classe que são herdar do script spawns e poder criar arquivos scriptable com as configurações diferentes e no projeto 4 scriptable grass, rail e também roaddoublescars e o roadonlycars. No script mapProcedural na configuração cars que vai estar com as suas configurações e como ele vai surgir na cena e velocidade que veículo vai percorrer no cenário.</p>
 
 <table border="0">
     <tr>
