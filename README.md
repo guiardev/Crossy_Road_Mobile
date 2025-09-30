@@ -315,7 +315,7 @@ quando o player pegar uma moeda.</p>
 <h1 id="C11">Fx and Music</h1>
 
 <p>O som do jogo vai está configurado no script GameController na parte Fx todos áudios dos jogo vai instalado e vai ser tocado via script com quando jogador 
-    pegar moedas ou tomada vai tocar um áudio que estive GameController na variável coin e meus para outra ação no jogo.</p>
+    pegar moedas ou tomada vai tocar um áudio que estive GameController na variável coin e meus para outra ação no jogo. O áudio do pulo vai ser randômico internando entre os áudios.</p>
 
 <table border="0">
     <tr>
