@@ -312,4 +312,13 @@ quando o player pegar uma moeda.</p>
     </tr>
 </table>
 
+<h1 id="C11">Fx and Music</h1>
+
+<table border="0">
+    <tr>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_GameController-fx.png" width="500" height="201"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_Environment.png" width="500" height="540"/></td>  
+    </tr>
+</table>
+
 </html>
