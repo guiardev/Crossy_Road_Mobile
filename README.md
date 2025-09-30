@@ -298,12 +298,12 @@ quando o player pegar uma moeda.</p>
 
 <table border="0">
     <tr>
-      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_carred.png" width="520" height="345"/></td>
-      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_carred_vehicle.png" width="502" height="249"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_menuController_configurationcars.png" width="500" height="265"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_grass_Scriptable.png" width="500" height="265"/></td>
     </tr>
     <tr>
-      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_caryellow.png" width="520" height="345"/></td>
-      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_caryellow_vehicle.png" width="502" height="249"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_roadonlycars_Scriptable.png.png" width="505" height="295"/></td>
+      <td><img src="https://github.com/guiardev/Crossy_Road_Mobile/blob/main/imgs/img_roaddoublescars_Scriptable.png.png" width="500" height="338"/></td>
     </tr>
 </table>
 
